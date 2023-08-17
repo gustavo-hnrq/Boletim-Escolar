@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Boletim</title>
+</head>
+<body>
+    <header>
+        <div id="header"><H1 class="text-center">BOLETIM ESCOLAR</H1></div>
+    </header> 
+
+    <center>
+        <main>
+            <table>
+                <thead>
+                    <tr id="titleTable">
+                        <td>Nome</td>
+                        <td>Nota 1</td>
+                        <td>Nota 2</td>
+                        <td>Nota 3</td>
+                        <td>Nota 4</td>
+                        <td>Média final</td>
+                        <td>Situação do aluno</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" id="nome1" class="nomes"></td>
+                        <td><input value="0" type="number" id="nota2_line1" class="notas"></td>
+                        <td><input value="0" type="number" id="nota3_line1" class="notas"></td>
+                        <td><input value="0" type="number" id="nota4_line1" class="notas"></td>
+                        <td><input value="0" type="number" id="nota1_line1" class="notas"></td>
+                        <td><p id="media1" class="centralizar"></p></td>
+                        <td><p id="situacao1" class="centralizar"></p></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="nome2" class="nomes"></td>
+                        <td><input value="0" type="number" id="nota1_line2" class="notas"></td>
+                        <td><input value="0" type="number" id="nota2_line2" class="notas"></td>
+                        <td><input value="0" type="number" id="nota3_line2" class="notas"></td>
+                        <td><input value="0" type="number" id="nota4_line2" class="notas"></td>
+                        <td><p id="media2" class="centralizar"></p></td>
+                        <td><p id="situacao2" class="centralizar"></p></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="nome3" class="nomes"></td>
+                        <td><input value="0" type="number" id="nota1_line3" class="notas"></td>
+                        <td><input value="0" type="number" id="nota2_line3" class="notas"></td>
+                        <td><input value="0" type="number" id="nota3_line3" class="notas"></td>
+                        <td><input value="0" type="number" id="nota4_line3" class="notas"></td>
+                        <td><p id="media3" class="centralizar"></p></td>
+                        <td><p id="situacao3" class="centralizar"></p></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="nome4" class="nomes"></td>
+                        <td><input value="0" type="number" id="nota1_line4" class="notas"></td>
+                        <td><input value="0" type="number" id="nota2_line4" class="notas"></td>
+                        <td><input value="0" type="number" id="nota3_line4" class="notas"></td>
+                        <td><input value="0" type="number" id="nota4_line4" class="notas"></td>
+                        <td><p id="media4" class="centralizar"></p></td>
+                        <td><p id="situacao4" class="centralizar"></p></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="nome5" class="nomes"></td>
+                        <td><input value="0" type="number" id="nota1_line5" class="notas"></td>
+                        <td><input value="0" type="number" id="nota2_line5" class="notas"></td>
+                        <td><input value="0" type="number" id="nota3_line5" class="notas"></td>
+                        <td><input value="0" type="number" id="nota4_line5" class="notas"></td>
+                        <td><p id="media5" class="centralizar"></p></td>
+                        <td><p id="situacao5" class="centralizar"></p></td>
+                    </tr>
+                </tbody>
+            </table>
+    </center>
+    
+    <div class="content container">
+        <center>
+            <button id="buton" type="button" onclick="calcularMedia()">Calcular médias</button>
+        </center>
+        
+    
+        <p id="media_geral">Média geral da turma:</p>
+    
+        <h2>Alunos com a média final abaixo da média geral da sala:</h2>
+        <p id="media_abaixo1" class="back_alunos_abaixo"></p>
+        <p id="media_abaixo2" class="back_alunos_abaixo"></p>
+        <p id="media_abaixo3" class="back_alunos_abaixo"></p>
+        <p id="media_abaixo4" class="back_alunos_abaixo"></p>
+        <p id="media_abaixo5" class="back_alunos_abaixo"></p>
+
+    </div>
+
+    </main>
+    
+    <footer >
+
+        <ul>
+
+        <a href="https://github.com/MarquesGusta/Boletim_escolar"><img src="img/MicrosoftTeams-image.png" alt="Github"></a>
+
+        <li><a href="https://github.com/MarquesGusta">Gustavo Marques</a></li>
+
+        <li><a href="https://github.com/henzy0">Gustavo Henrique</a></li>
+
+        <li><a href="https://github.com/MelissaaGomes">Melissa Mel</a></li>
+
+        <li><a href="https://github.com/EloisaLaurentino">Maria Eloisa</a></li>
+
+ 
+
+        </ul>
+
+       
+
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>

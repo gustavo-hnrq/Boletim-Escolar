@@ -1,0 +1,128 @@
+#header{
+    background-color:#019981 ;
+    padding: 10px;
+}
+
+#header h1{
+    color: white;
+}
+
+header{
+    margin-bottom: 25px;
+}
+
+#titleTable td{
+    background-color: #019981 ;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+}
+
+.nomes{
+    background-color: #A8A8A8;
+    color: white;
+}
+
+.notas{
+    background-color:  #F1F1F1;
+    margin: 5px;
+}
+
+.p_invisivel{
+    color: white;
+}
+
+.content{
+    padding-top: 20px;
+}
+
+footer{
+    background-color: #019981;
+    text-align: center;
+    padding: 5%;
+    margin-top: 100px;
+
+}
+
+.centralizar{
+    text-align: center;
+}
+
+#media_geral{
+    margin-top: 1%;
+    background-color: #F1F1F1;
+    padding: 1%;
+    max-width: 30%;
+}
+
+.back_alunos_abaixo{
+    background-color: #F1F1F1;
+}
+
+button{
+    margin-bottom: 5px;
+    background-color: #019981;
+    color: white;
+    border: 1px solid #019981;
+    width: 200px;
+}
+
+#buton{
+    border-radius: 20px;
+    padding: 10px;
+    /* padding-left: 10px;
+    paddi */
+}
+li{
+
+    float: left;
+
+    padding: 10px;
+
+    list-style-type: none;
+
+}
+
+ 
+
+li a{
+
+    color: white;
+
+    text-decoration: none;
+
+ 
+
+}
+
+ 
+
+button{
+
+   
+
+    border-radius: 100%;
+
+    padding: 15px;
+
+    background-color: #019981;
+
+ 
+
+}
+
+ 
+
+button:hover{
+    background-color: white;
+    color: #019981;
+}
+
+img{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+ 
+
